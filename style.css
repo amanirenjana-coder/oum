@@ -114,6 +114,20 @@ footer {
 }
 
 
+.program-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.program-card {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.program-card:hover {
+    transform: scale(1.05);
+}
+
 
 
 
