@@ -136,17 +136,7 @@ footer {
 }
 
 
-.program-card {
-    text-decoration: none;   /* buang garis bawah */
-    color: inherit;          /* ikut warna asal */
-    display: block;          /* pastikan satu kad penuh boleh klik */
-}
 
-
-.program-card * {
-    color: inherit;
-    text-decoration: none;
-}
 
 
 
