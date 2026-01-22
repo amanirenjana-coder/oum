@@ -6,66 +6,111 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="margin:0; font-family:Arial, sans-serif; background:#f5f7fa;">
+<body style="margin:0; font-family:Verdana, sans-serif; background:#ffffff;">
 
-<!-- TOP BAR -->
-<div style="background:#0b5ed7; color:white; padding:12px 30px;
-            display:flex; justify-content:space-between; align-items:center;">
-    <strong>Open University Malaysia</strong>
-    <span>Pendidikan Fleksibel</span>
-</div>
+<!-- NAV -->
+<nav style="
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    background:#0b3c5d;
+    color:white;
+">
+    <strong>OUM</strong>
+    <div>
+        <a href="index.html" style="color:white; margin:15px;">Home</a>
+        <a href="about.html" style="color:white; margin:15px;">Tentang</a>
+        <a href="programs.html" style="color:white; margin:15px;">Program</a>
+    </div>
+</nav>
 
-<!-- MAIN HERO -->
-<div style="display:flex; min-height:80vh;">
+<!-- SPLIT SECTION -->
+<section style="
+    display:flex;
+    min-height:85vh;
+">
 
     <!-- LEFT -->
-    <div style="flex:1; padding:80px 60px;">
-        <h1 style="font-size:42px; color:#0b5ed7; margin-bottom:20px;">
-            Belajar Tanpa Had<br>
-            <span style="color:#ff7a00;">Bina Masa Depan Anda</span>
+    <div style="
+        flex:1;
+        padding:80px;
+        background:#f5f7fa;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    ">
+        <h1 style="
+            font-size:46px;
+            line-height:1.2;
+            margin-bottom:20px;
+            color:#0b3c5d;
+        ">
+            Pendidikan  
+            <br>Tanpa Had  
+            <br>Bersama OUM
         </h1>
 
-        <p style="font-size:18px; color:#444; line-height:1.7;">
-            Open University Malaysia (OUM) menyediakan pembelajaran fleksibel
-            khas untuk individu bekerja yang ingin meningkatkan kelayakan
-            akademik tanpa mengganggu kerjaya.
+        <p style="font-size:18px; color:#333; max-width:500px;">
+            Open University Malaysia menyediakan pembelajaran fleksibel
+            untuk individu bekerja yang ingin membina masa depan lebih baik.
         </p>
 
-        <div style="margin-top:35px;">
-            <a href="programs.html"
-               style="background:#0b5ed7; color:white; padding:14px 28px;
-                      text-decoration:none; border-radius:8px; font-size:16px;">
-                Terokai Program →
+        <div style="margin-top:30px;">
+            <a href="programs.html" style="
+                padding:15px 30px;
+                background:#ff7a00;
+                color:white;
+                text-decoration:none;
+                font-size:16px;
+                border-radius:5px;
+                margin-right:15px;
+            ">
+                Lihat Program
+            </a>
+
+            <a href="about.html" style="
+                padding:15px 30px;
+                border:2px solid #0b3c5d;
+                color:#0b3c5d;
+                text-decoration:none;
+                font-size:16px;
+                border-radius:5px;
+            ">
+                Kenali OUM
             </a>
         </div>
     </div>
 
     <!-- RIGHT -->
-    <div style="flex:1; background:#0b5ed7; color:white;
-                display:flex; flex-direction:column;
-                justify-content:center; padding:60px;">
-
-        <div style="margin-bottom:30px;">
-            <h2>🎓 Diploma & Degree</h2>
-            <p>Pilihan program relevan dengan keperluan industri.</p>
-        </div>
-
-        <div style="margin-bottom:30px;">
-            <h2>⏰ Fleksibel</h2>
-            <p>Belajar ikut masa sendiri, di mana sahaja.</p>
-        </div>
-
+    <div style="
+        flex:1;
+        background:linear-gradient(135deg, #0072ff, #00c6ff);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        color:white;
+        text-align:center;
+        padding:40px;
+    ">
         <div>
-            <h2>🌍 Terbuka Untuk Semua</h2>
-            <p>Peluang pendidikan tanpa batasan umur.</p>
+            <img src="gambar.jpg" alt="OUM Logo" style="width:140px; margin-bottom:20px;">
+            <h2 style="font-size:32px;">Belajar Ikut Cara Anda</h2>
+            <p style="font-size:18px;">
+                Diploma • Degree • Pembelajaran Terbuka
+            </p>
         </div>
-
     </div>
-</div>
 
-<!-- FOOTER -->
-<footer style="background:#111; color:white; text-align:center; padding:18px;">
-    © 2026 Open University Malaysia
+</section>
+
+<footer style="
+    background:#0b3c5d;
+    color:white;
+    text-align:center;
+    padding:20px;
+">
+    <p>© 2026 Open University Malaysia</p>
 </footer>
 
 </body>
